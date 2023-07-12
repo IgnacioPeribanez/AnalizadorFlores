@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title> Iris Flower - IA </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="card mb-3" style="max-width: 61.5%;">
+                <div class="row card-header">
+                    <div class="col p-2">
+                        Iris Flower - IA
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col p-5">
+                        <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <br>
+                            <form>
+                                <div class=" row mb-3">
+                                    <label for="larSepalo">LARGURA SETALO</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="larSepalo">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="anSepalo">ANCHURA SETALO</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="anSepalo">
+                                    </div>
+                                </div>
+                                <div class=" row mb-3">
+                                    <label for="larPetalo">LARGURA PETALO</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="larPetalo">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="anPetalo">ANCHURA PETALO</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="anPetalo">
+                                    </div>
+                                </div>
+                                <br>
+                            </form>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <br>
+                                    <button onclick="update()" class="btn btn-dark">Submit</button>
+                                </div>
+                                <div class="col text-danger" id="result">
+                                    <br><br><br>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://unpkg.com/brain.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
